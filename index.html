@@ -3,6 +3,81 @@
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">  <!--Not in love with this font-->
 <!--Need to add accessibility features-->
+<style>
+#navbar{
+  overflow: hidden;
+  background-color: #7F839B;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+body{
+  font-family: 'Kalam', cursive;
+  color: #F2EEEC;
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #2e2b4e, #36385f, #3d466f, #445481, #4a6392, #516b99, #59729f, #607aa6, #6a7ca3, #727ea1, #79809e, #7f839b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#welcome-section{
+  height: 100vh;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.projects{
+  display: grid;
+  padding: 30px;
+  grid-gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.project-tile{
+  border: solid #F2EEEC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3em;
+}
+#about{
+  border: solid #F2EEEC 5px;
+  padding: 1% 5% 1% 5%;
+}
+a:link {
+  color: #F2EEEC;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2E2B4E;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #14141A;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #7F839B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+</style>
 </head>
 
 <body>
