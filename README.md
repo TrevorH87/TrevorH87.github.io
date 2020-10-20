@@ -4,6 +4,9 @@ Portfolio Website
 
 User Stories:
 
-1) Add a project card/link to Responsive Web Design Cert.
+1) Add a certifications section and create the first card
+2) Add headshots to "hero image" section/ welcome section
+3) CSS Animations?
+4) Offset text style for welcome section. ? Look up inspiration projects
 
-2) Add a project card/link for Restaurant Landing Page
+
